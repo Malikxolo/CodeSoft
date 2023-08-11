@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', 'sans-serif';
+    font-family: Poppins, sans-serif;
 }
 
 body {
@@ -402,6 +402,11 @@ body {
     width: 35rem;
     height: 24rem;
     border-radius: 5%;
+}
+
+.pro img:hover {
+    transform: scale(1.01);
+    filter: blur(1px);
 }
 
 .pro__text {
